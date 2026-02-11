@@ -30,8 +30,8 @@ To fully protect the main branch, you need to enable branch protection rules in 
    - ✅ **Include administrators** (this applies rules to you as well, but you can still bypass)
    - ✅ **Restrict who can push to matching branches**
      - Add only your username: `ftruter`
-   - ✅ **Allow force pushes** → Everyone (or disable entirely for maximum protection)
-   - ✅ **Allow deletions** → Disabled
+   - ✅ **Do not allow force pushes** (disable for maximum protection)
+   - ✅ **Do not allow deletions**
 
 5. Click **Create** or **Save changes**
 

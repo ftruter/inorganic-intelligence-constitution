@@ -13,7 +13,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const owner = 'ftruter';
+            const owner = context.repo.owner;
             const prAuthor = context.payload.pull_request.user.login;
 
             if (prAuthor !== owner) {
